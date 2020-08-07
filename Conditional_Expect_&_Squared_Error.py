@@ -33,3 +33,9 @@ mn = np.mean([(6-samples_z7())**2 for i in range(100)])
 # 5 is the MSE estimate
 mn0 = np.mean([(5-samples_z7())**2 for i in range(100)])
 print("using 6 as Estimate, MSE = ", mn , ". Using 5 as an estimate, MSE = ", mn0)
+
+# output
+# 329*a**2/6 - 329*a/6 + 91/6
+# 1/2
+# MSE = %3.2f using 6 vs MSE = %3.2f using 7/2  (407/50, 2.95000000000000)
+# using 6 as Estimate, MSE =  97/25 . Using 5 as an estimate, MSE =  51/20
